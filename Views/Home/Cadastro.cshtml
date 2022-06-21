@@ -1,0 +1,57 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<html>
+<body>
+
+<div class="form">
+    <form method="post">
+
+       <p>
+           <label for="/a/">Qual seu nome?</label>
+           <br>
+           <input asp-for="/a/" required>
+       </p>
+       <br>
+       <p>
+        <label for="a">Qual seu email?</label>
+        <br>
+        <input asp-for="/a/" required>
+    </p>
+    <br>
+    <p>
+        <label for="a">Crie sua senha</label>
+        <br>
+        <input asp-for="/a/" required>
+    </p>
+    <br>
+    <p>
+        <label for="a">CPF ou CNPJ</label>
+        <br>
+        <input asp-for="/a/" required>
+    </p>
+    <br>
+    <p>
+        <label for="a">CEP</label>
+        <br>
+        <input asp-for="/a/" required>
+    </p>
+    
+    <br>
+
+    <p id="cadastro">
+    <input type="submit" value="Enviar">
+    </p>
+
+
+    </form>
+</div>
+ 
+<footer>
+    <p>2022 - FranzDeveloper 🚀</p>
+  </footer>
+  
+
+</body>
+</html>
